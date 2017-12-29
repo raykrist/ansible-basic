@@ -1,0 +1,6 @@
+# Can be used to bootstrap server with ansible
+localhost ansible_connection=local
+
+[uh-iaas]
+ubuntu-server ansible_host=2001:700:2:8301::1 ansible_user=ubuntu
+centos-server ansible_host=2001:700:2:8301::2 ansible_user=centos
