@@ -7,6 +7,6 @@ custom_users:
   raymond:
     group: users
 custom_authorized_keys:
-  raymond: {}
+  raymond: {} # This will use the local .ssh/.id_rsa.pub
 custom_sudoers:
   raymond: {}
