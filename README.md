@@ -10,6 +10,12 @@ Example files can be found in the example directory
 $basedir/inventory
         /host_vars/*
         /group_vars/all.yaml
-        /lib (clone of ansible-basic repo)
+        /basic (clone of ansible-basic repo)
  
+```
+
+### Run playbook
+
+```
+ansible-playbook basic/common.yaml
 ```
